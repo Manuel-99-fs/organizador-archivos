@@ -28,7 +28,7 @@ El script detecta automáticamente si estás usando nombres de carpetas en ingl�
 # Instalacióm
 
 1. Clona el repositorio o descarga el script:
-git clone https://github.com/tu-usuario/organizador-archivos.git
+git clone https://github.com/Manuel-99-fs/organizador-archivos.git
 
 2. Da permisos de ejecución al script:
 chmod +x LimpiaDesk.sh
