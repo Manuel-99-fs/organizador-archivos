@@ -41,3 +41,26 @@ chmod +x LimpiaDesk.sh
 - Conversión automática de mayúsculas/minúsculas en extensiones
 - Menús condicionales para crear subcarpetas por extensión
 - Evita sobrescribir carpetas si ya existen
+
+
+# ---------------------------------------------------------------------------------------------------------------
+
+# Generador_de_extensiones.sh
+Este pequeño script en Bash permite crear archivos vacíos de diferentes tipos (imágenes, documentos, vídeos y música) con múltiples extensiones. Es ideal para probar el funcionamiento del organizador LimpiaDesk u otros scripts de clasificación de archivos.
+
+- Este script NO genera contenido real, solo archivos vacíos con distintas extensiones para simular un entorno de trabajo realista.
+
+- ¿Para qué sirve?
+
+Para ayudarte a probar herramientas como LimpiaDesk, que mueven archivos por tipo o extensión, sin necesidad de descargar archivos reales.
+
+- Recomendación: lo ideal es ejecutar este script directamente desde la carpeta Descargas (~/Downloads), ya que LimpiaDesk está diseñado para buscar y organizar los archivos desde allí. Esto permite una prueba completa y realista del funcionamiento del organizador.
+- 
+# Tipos de Archivos Soportados
+- mágenes: jpg, jpeg, png, gif, bmp, webp, svg, eps, ai, cr2, nef, arw, dng, orf, raw, tiff, tif, ico, heic, heif
+
+- Documentos: doc, docx, xls, xlsx, csv, ods, ppt, pptx, odp, pdf, txt, md, rtf, odt, tex, bib, log, ini, json, xml, yaml, yml
+
+- Vídeos: mp4, mkv, avi, mov, wmv, flv, webm, m4v, ogv, mpg, mpeg, 3gp, 3g2, ts, mts, m2ts, vob, rmvb, divx, amv, svi, f4v, asf, dv, mxf, nsv
+
+-  Música: mp3, wav, flac, aac, ogg, m4a, wma, aiff, alac, opus, amr, mid, midi, ra, ac3, dts, mp2, caf, voc, au, snd, oga, aax, ape, wv
